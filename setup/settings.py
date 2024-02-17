@@ -32,6 +32,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=False, cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
+    'gopolls.apps.GopollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
